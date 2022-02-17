@@ -46,7 +46,7 @@ and defines timer and sends control signals to high voltage control unit
 * This is used when the video is playing 
 ## MIC
 * MIC is used to capture the audio data and send it to the Controller
-# USB & HDMI interface
+## USB & HDMI interface
 * These interfaces are used when the data needs to be sent outside and displayed or copied
 ## External Memory
 * The images and videos consume more space so external memory is used for expandable memory
