@@ -1,6 +1,6 @@
 # Micro Oven
 ## The below block diagram has the major parts for the Micro Oven
-
+ ![Micro oven Block Diagramcommit](https://github.com/praveenraj2001/M2-EmbSys/blob/main/CaseStudy/Microwave_oven.png)
  
 
 ## Now let’s explore each component
