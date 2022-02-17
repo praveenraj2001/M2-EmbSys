@@ -56,3 +56,7 @@ and defines timer and sends control signals to high voltage control unit
 * This real time clock is to provide precise time and date which can be used for this camera
 ## RAM & EEPROM
 * Here we will require ram and rom for out system because we have larger data to store and larger data to process
+## Power management unit
+* Here how much power should be given to a certain block is calculated and given to that block based on the usage sometimes controller can also choose the power supply
+## Battery & Charging
+* Here the charging of battery is taken care of with some special circuitry
