@@ -36,15 +36,17 @@
 ## Requirements
 
 <!-- Tables -->
-
+### High Level Requirements
+---
 | ID | High Level Requirements |
 | -------- | -------------- |
 | HL1 | It should controll Lights, Fan Automatically |
 | HL2 | It should controll Drapes Automatically |
 | HL3 | It should Sound buzzer when door is open and people are not at home |
-| HL4 | It should display How much %of drape is open |
+| HL4 | It should display How much %of drapes are opend |
 
-
+### Low Level Requirements
+---
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
@@ -54,8 +56,8 @@
 
 | ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | Set the initial Database to Zero |  | H4L1 | Calculate the equation according to input data |
-| H3L2 | Store Data inserted data into the Database |  | H4L2 | Print the final result to the screen |
+| H3L1 | The __555 Timer__ circuit should send pwm signal to speaker  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
+| H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
 
 ## Best Method Followed
  * Instead of making multiple loops for sorting here we have used qsort which is the best method to follow and it gives best results
