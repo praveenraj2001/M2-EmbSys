@@ -1,4 +1,4 @@
-# Engineering_calculator
+# Automatic Drapes, Lighting and Cooling control system along with Burgler alert 
 # Description
  * This Project is an Engineering Calculator and which is extremely useful to students and will save them time while doing some complex calculations 
 
