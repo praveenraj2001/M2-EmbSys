@@ -1,14 +1,16 @@
 # Description
- * This Project is an __Automatic Drapes, Lighting and Cooling control system along with Burglar alert System__ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
+ * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _ABCLDS_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
 
 ## Identifying features
- * It should give accurate values
- * Having precision upto 6 decimal points
- * Easy to use
+ * It should show how much %of drapes should be opened according to room light intensity
+ * It should dim light intensity according to room light intensity
+ * It should change the speed of fan accordingly to the temperature of the room
+ * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
 
 ## State of art
- * The main focus point here is the precision which will be very useful for many sensitive calculation
- * Takes less computational time
+ * The main focus point here is the controlling the Home without even touching a single button
+ * And also securing our home with a reliable __Burglar system__
+ * Now this two features are combined and made into one product i.e. __ABCLDS__
 
 ## 5W's & 1H
 ### This below image represents the 5W's &1H analysis that I've done
