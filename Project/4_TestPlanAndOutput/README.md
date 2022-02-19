@@ -5,15 +5,15 @@
 
 ## HIGH LEVEL TEST PLAN / Integrated test plan
 
-| Test ID (for selecting)| Description | Input | Expected output | Actual Output |
+| Test ID | Description | Input | Expected output | Actual Output |
 | --- | --- | --- | --- | --- |
-| 01 | STATISTICS | 1  | STATISTICS inputs|  ✓ |
-| 02 | PLAIN GEOMETRY | 2 | PLAIN GEOMETRY inputs |  ✓ |
-| 03 | MENSURATION | 3 | MENSURATION options | ✓ |
-| 04 | ALGEBRA | 4 | ALGEBRA values | ✓ |
-| 05 | If selected wrong option | 5 | Exits(prints wrong option entered) | ✓ |
+| 01 | Thermistor | Room Temperature  | Temperature(to volts) |  ✓ |
+| 02 | LDR | Room light intensity | Intensity(to volts) |  ✓ |
+| 03 | Master Switch | on(Alarm) | Should disable all automation | ✓ |
+| 04 | Master Switch | off(Automation) | Should disable Alarm | ✓ |
 
-| Test ID (for selecting)| Description | Input | Expected output | Actual Output |
+
+| Test ID | Description | Input | Expected output | Actual Output |
 | --- | --- | --- | --- | --- |
 | 01 | MEAN,MEDIAN,MODE | ARRAY , N  | outputs from Mean,median,mode|  ✓ |
 | 02 | ELLIPSE,TRAPEZOID | 1 or 2 for selecting | outputs from Ellipse,Trapezoid |  ✓ |
