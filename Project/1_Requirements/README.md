@@ -40,21 +40,21 @@
 ---
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HL1 | It should controll Lights, Fan Automatically |
-| HL2 | It should controll Drapes Automatically |
-| HL3 | It should Sound buzzer when door is open and people are not at home |
-| HL4 | It should display How much %of drapes are opend |
+| H1 | It should controll Lights, Fan Automatically |
+| H2 | It should controll Drapes Automatically |
+| H3 | It should Sound buzzer when door is open and people are not at home |
+| H4 | It should display How much %of drapes are opend |
 
 ### Low Level Requirements
 ---
-| ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
+| ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
 | H1L2 | According to the values of __Termistor__ controll speed of fan|       |H2L2 | Position of drapes are controlled by SERVO Moto |
 
 
 
-| ID | Low Level Requirements for HL3|  |ID | Low Level Requirements for HL4|
+| ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
 | -------- | -------------- | ---- | -------- | -------------- |
 | H3L1 | The __555 Timer__ circuit should send pwm signal to speaker  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
 | H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
