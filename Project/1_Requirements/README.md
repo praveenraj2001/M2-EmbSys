@@ -56,7 +56,7 @@
 
 | ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | The __555 Timer__ circuit should send pwm signal to speaker  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
+| H3L1 | The __555 Timer__ circuit should send pwm signal to speaker (When enabled, off other tasks)  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
 | H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
 
 ## Best Method Followed
