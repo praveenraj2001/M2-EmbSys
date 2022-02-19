@@ -8,7 +8,7 @@
 | Test ID | Description | Input | Expected output | Actual Output |
 | --- | --- | --- | --- | --- |
 | 01 | Thermistor | Room Temperature  | Temperature(to volts) |  ✓ |
-| 02 | LDR | Room light intensity | Intensity(to volts) |  ✓ |
+| 02 | LDR | Room light intensity | Intensity(to volts) |  To be done |
 | 03 | Master Switch | on(Alarm) | Should disable all automation | To be done |
 | 04 | Master Switch | off(Automation) | Should disable Alarm | To be done |
 | 05 | 555 Timer and buzzer | Data from Micro controller | Buzzing Sound | ✓ |
