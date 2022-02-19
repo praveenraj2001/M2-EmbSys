@@ -15,9 +15,9 @@
 
 | Test ID | Description | Input | Expected output | Actual Output |
 | --- | --- | --- | --- | --- |
-| 01 | MEAN,MEDIAN,MODE | ARRAY , N  | outputs from Mean,median,mode|  ✓ |
-| 02 | ELLIPSE,TRAPEZOID | 1 or 2 for selecting | outputs from Ellipse,Trapezoid |  ✓ |
-| 03 | SPHERE,CONE,CYLINDER | 1 or 2 or 3 for selecting | outputs from sphere,cone,cylinder | ✓ |
+| 01 | Door Open/Close sensor | 5v 0r 0v  | 5v or 0v |  ✓ |
+| 02 | LCD display | Data from Micro controller | Display %of drapes open and %of intensity of light |  ✓ |
+| 03 | Servo motor | Data from Micro controller | Should change  | ✓ |
 | 04 | (a+b)^3,(a-b)^3,(a+b)^4,(a+b)^5 | a , b | ALGEBRA values | ✓ |
 | 05 | If selected wrong option | 5 | Exits(prints wrong option entered) | ✓ |
 
