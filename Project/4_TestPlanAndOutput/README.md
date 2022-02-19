@@ -39,9 +39,3 @@
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
-
-
-### Best Practices
-  *  [x] Checked multiple range of inputs
-  *  [x] Compared the data obtained with calculator
-  *  [x] reasoned with the values because we have high precision than the calculator itself
