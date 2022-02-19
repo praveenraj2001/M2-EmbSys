@@ -1,5 +1,5 @@
 # Description
- * This Project is an Engineering Calculator and which is extremely useful to students and will save them time while doing some complex calculations   
+ * This Project is an __Automatic Drapes, Lighting and Cooling control system along with Burglar alert System__ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
 
 ## Identifying features
  * It should give accurate values
