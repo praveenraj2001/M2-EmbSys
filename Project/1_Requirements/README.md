@@ -1,5 +1,5 @@
 # Description
- * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _ABCLDS_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
+ * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.D.S)_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
 
 ## Identifying features
  * It should show how much %of drapes should be opened according to room light intensity
@@ -10,11 +10,24 @@
 ## State of art
  * The main focus point here is the controlling the Home without even touching a single button
  * And also securing our home with a reliable __Burglar system__
- * Now this two features are combined and made into one product i.e. __ABCLDS__
+ * Now this two features are combined and made into one product i.e. __A.B.C.L.D.S__
+ * As the world PACE-FORWARD our technology needs to catch up to the world  
 
-## 5W's & 1H
-### This below image represents the 5W's &1H analysis that I've done
-![5W's & 1H](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/1_Requirements/5w1h.png)
+## 4W's & 1H
+### WHO
+* People who want a little home automation and security to their home
+### WHAT
+* Automatic Burglar alert, Cooling, Lighting and Drapes Control system 
+### WHEN
+* When we are going out of town and want to secure our home
+* In Day when we want automatic drape control
+## Where
+* Inside a house
+## HOW
+* switch on master to home for burglar alarm
+* switch on master to automatic for control lighting and coolness inside home
+ 
+
 
 ## S.W.O.T analysis 
 ### This below images represents the S.W.O.T analysis that I've done
@@ -26,16 +39,16 @@
 
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HL1 | Options for Different operations |
-| HL2 | Take different inputs for Different options |
-| HL3 | Store Data inserted |
-| HL4 | Calculate the Different operations |
+| HL1 | It should controll Lights, Fan Automatically |
+| HL2 | It should controll Drapes Automatically |
+| HL3 | It should Sound buzzer when door is open and people are not at home |
+| HL4 | It should display How much %of drape is open |
 
 
 | ID | Low Level Requirements for HL1|       |ID | Low Level Requirements for HL2|
 | -------- | -------------- | ---- |-------- | -------------- |
-| H1L1 | Give all the options available|       |H2L1 | Get the input Option |
-| H1L2 | Give all the Sub-options available|       |H2L2 | Get the variable values according to Selected option |
+| H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
+| H1L2 | According to the values of __Termistor__ controll speed of fan|       |H2L2 | Position of drapes are controlled by SERVO Moto |
 
 
 
