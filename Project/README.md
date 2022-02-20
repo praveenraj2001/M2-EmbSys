@@ -70,11 +70,12 @@
 ### This below images represents the S.W.O.T analysis that I've done
 ![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)
 
+---
 ## Requirements
 
 <!-- Tables -->
 ### High Level Requirements
----
+
 | ID | High Level Requirements |
 | -------- | -------------- |
 | H1 | It should controll Lights, Fan Automatically |
@@ -83,7 +84,7 @@
 | H4 | It should display How much %of drapes are opend |
 
 ### Low Level Requirements
----
+
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | -------- | -------------- | ---- |-------- | -------------- |
 | H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
