@@ -18,7 +18,7 @@
 
 ## S.W.O.T analysis 
 ### This below images represents the S.W.O.T analysis that I've done
-![SWOT](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/1_Requirements/SWOT-Analysis-Template.jpg)
+![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)
 
 ## Requirements
 
