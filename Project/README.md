@@ -49,6 +49,12 @@
 ## Micro Controller 
 * This is the brain of the system here we use Atmega328 every computation is done inside this controller it converts analog to digital and maps certain values, it controls LCD display, it sends PWM signals to Fan and Stepper motor
 
+
+------
+# Current Progress
+![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)
+Done with Buzzer and screen and adc conversion
+
 ---
 
 ## Identifying features
@@ -139,7 +145,3 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
-
-------
-# Current Progress
-![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)

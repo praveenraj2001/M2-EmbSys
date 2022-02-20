@@ -47,5 +47,4 @@
 | H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
 
 ## Best Method Followed 
- * Instead of making multiple loops for sorting here we have used qsort which is the best method to follow and it gives best results
-
+ * 
