@@ -1,5 +1,5 @@
 # Description
- * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.D.S)_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
+ * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
 
 ## Identifying features
  * It should show how much %of drapes should be opened according to room light intensity
@@ -10,7 +10,7 @@
 ## State of art
  * The main focus point here is the controlling the Home without even touching a single button
  * And also securing our home with a reliable __Burglar system__
- * Now this two features are combined and made into one product i.e. __A.B.C.L.D.S__
+ * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
 ## 5W's & 1H

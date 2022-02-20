@@ -1,19 +1,8 @@
-# Automatic Drapes, Lighting and Cooling control system along with Burgler alert 
+# __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.D.S)_
 # Description
- * This Project is an Engineering Calculator and which is extremely useful to students and will save them time while doing some complex calculations 
+ * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic light controlling in home and when we are not in home we can activate Buglar alarm which will give a sound noise alerting people around the home by buzzing noise when someone brakes the Door
 
-## Goal
-* Simple user interface
-* Improved accuracy of the result
+# Block Diagram
 
-## Input
-* Choose which option needs to be selected for different operations
-* input different values for different operations 
+![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
 
-## Process
-* Display mathematical branches available
-* Display different options under the selected branch
-* Calculate the data and result
-
-## Output
-* Return/display the calculated values
