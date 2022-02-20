@@ -13,19 +13,8 @@
  * Now this two features are combined and made into one product i.e. __A.B.C.L.D.S__
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
-## 4W's & 1H
-### WHO
-* People who want a little home automation and security to their home
-### WHAT
-* Automatic Burglar alert, Cooling, Lighting and Drapes Control system 
-### WHEN
-* When we are going out of town and want to secure our home
-* In Day when we want automatic drape control
-## Where
-* Inside a house
-## HOW
-* switch on master to home for burglar alarm
-* switch on master to automatic for control lighting and coolness inside home
+## 5W's & 1H
+
  
 
 
