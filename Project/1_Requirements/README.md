@@ -14,9 +14,7 @@
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
 ## 5W's & 1H
-
- 
-
+![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png)
 
 ## S.W.O.T analysis 
 ### This below images represents the S.W.O.T analysis that I've done
