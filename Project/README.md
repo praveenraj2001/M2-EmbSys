@@ -145,3 +145,7 @@ Done with Buzzer and screen and adc conversion
 | --- | --- | --- | --- | --- | --- |
 | 01 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
+
+
+# Applications
+* The scope of this project is vast in the area of home automation and Home security and when people want automatic home lighting and cooling system along with  Intruder alart
