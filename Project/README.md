@@ -57,6 +57,7 @@
 | H3 | It should Sound buzzer when door is open and people are not at home |
 | H4 | It should display How much %of drapes are opend |
 
+
 ### Low Level Requirements
 
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
