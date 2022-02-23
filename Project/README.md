@@ -132,8 +132,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Thermistor | 25  | Fan speed should change accordingly | Fan speed should change accordingly  | To be done |
 | 02 | LDR | 10lux | 100% of drapes opened | 100% of drapes opened |  To be done |
-| 03 | Master Switch | on(Alarm) | Shall disable all automation | Shall disable all automation |To be done |
-| 04 | Master Switch | off(Automation) | Shall disable Alarm and on Automation | Shall disable Alarm and on Automation | To be done |
+| 03 | Master Switch | on(1) | Shall disable all automation | Shall disable all automation |To be done |
+| 04 | Master Switch | off(0) | Shall disable Alarm and on Automation | Shall disable Alarm and on Automation | To be done |
 | 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound | To be done |
 
 
