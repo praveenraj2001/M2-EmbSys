@@ -10,6 +10,11 @@
     1. High level requirements
     1. Low level requirements
 1. Block Diagram and Blocks explination
+    1. Block Diagram
+    1. Sensors
+    1. Actuators
+    1. Micro controller and memory
+    1. Sub-system and others
 1. Test plan
     1. High level test plan
     1. Low level test plan
@@ -39,9 +44,6 @@
 | 5W's & 1H | S.W.O.T analysis  |
 | -------- | -------------- |
 | ![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png) | ![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)|
-# Block Diagram
-
-![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
 
 ---
 
@@ -73,8 +75,11 @@
 | LLR3.2 | The micro controller should activate buzzer circuit and turn off other systems |  | LLR4.2 |It should be able to convert integer to string for displaying %of drapes |
 
 ---
-##
-## SENSORS
+# 3.1 Block Diagram
+
+![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
+
+## 3.2 SENSORS
 * ### Temperature Sensor (Thermistor)
     * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller
 
@@ -89,7 +94,7 @@
     * This switch controls the Burglar alarm and other automations as unit when this switch is on (we ON it when we want alarm)
 
 
-## ACTUATORS
+## 3.3 ACTUATORS
 * ### FAN
     * This is a fan which control the cooling of room by increasing/decreasing it's speed
 
@@ -106,7 +111,7 @@
     * Here we have used (Hd44780-26) LCD display for displaying how much %of drapes are opened and how much %of lights are on
 
 
-## Micro Controller
+## 3.4 MICRO CONTROLLER AND MEMORY
 * ### EEPROM
     * Here this is actually inside the microcontroller
 
@@ -116,7 +121,7 @@
 * ### Micro Controller 
     * This is the brain of the system here we use Atmega328 every computation is done inside this controller it converts analog to digital and maps certain values, it controls LCD display, it sends PWM signals to Fan and Stepper motor
 
-## SUBSYSTEM & OTHERS
+## 3.5 SUBSYSTEM & OTHERS
 
 * ### Burglar alarm
     * This system consists of __555 Timer__, some capacitors, resistors and a speaker connected in a specific way to make a buzzing sound
