@@ -80,7 +80,7 @@
 * This switch controls the Burglar alarm and other automations as unit when this switch is on (we ON it when we want alarm)
 
 ## EEPROM
-* Here this is actually inside the microcontroller
+* Here we use EEPROM this is actually inside the microcontroller
 
 ## Clock
 * Here we are using internal clock of our micro controller
