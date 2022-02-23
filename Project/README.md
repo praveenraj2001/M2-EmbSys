@@ -138,7 +138,7 @@
 
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | 01 | Door Open/Close sensor | 5v 0r 0v  | Send 1 to Buzzer circuit | Send 1 to Buzzer circuit | To be done |
 | 02 | LCD display | %(50) of drapes opened and %(50) of lights intensity | "%(50) of drapes opened and %(50) of lights intensity" on screen | "%(50) of drapes opened and %(50) of lights intensity" on screen | To be done |
 | 03 | Motor Control For Stepper (MCFS) | Data from Micro controller(sends values from PORTD to Motor driver) |Data from Micro controller(sends values from PORTD to Motor driver) |  | To be done |
