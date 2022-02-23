@@ -43,7 +43,7 @@
 
 ![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
 
---
+---
 
 ## Requirements
 
