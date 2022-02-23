@@ -22,15 +22,15 @@
 1. Current Progress
 ---
 ## 1.1 Description
- * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic lighting and cooling control system in home and when we are not in home we can activate Buglar alarm which will give a buzz noise alerting people around the home by buzzing noise when someone breaks the Door
+ * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic lighting and cooling control system in home and when we are not in home we can activate Buglar alarm which will give a buzz noise alerting people around the home by buzzing noise when someone breaks the Door, When the user sets a required temperature and light intensity this system will automatically controls the Room temperature and Light intensity.
 
 ---
 
 ## 1.2 Identifying features
- * It should show how much %of drapes should be opened according to room light intensity
- * It should dim/increase light intensity according to room light intensity
- * It should change the speed of fan accordingly to the temperature of the room
- * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
+ * It shall show how much %of drapes are opened according to room light intensity
+ * It shall dim/increase light intensity according to room light intensity variation 
+ * It shall change the speed of fan accordingly to the temperature of the room
+ * When we are not at home it shall be able to sense if door is closed or broken and shall turn on a buzzer
 
 ## 1.3 State of art
  * The main focus point here is the controlling the Home without even touching a single button
@@ -54,25 +54,25 @@
 
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HLR1 | It should controll Lights, Fan Automatically |
-| HLR2 | It should controll Drapes Automatically |
-| HLR3 | It should Sound buzzer when door is open and people are not at home |
-| HLR4 | It should display How much %of drapes are opend |
+| HLR1 | It shall controll Lights, Fan Automatically when user selects desired light intensity and Temperature |
+| HLR2 | It shall controll Drapes Automatically user selects desired light intensity |
+| HLR3 | It shall Sound buzzer when door is open and people are not at home |
+| HLR4 | It shall display How much %of drapes are opend |
 
 
 ### Low Level Requirements
 
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | ----- | ----- | ---- |----- | ----- |
-| LLR1.1 | According to the values of __LDR__ control the lights|       |LLR2.1 |  According to the values of __LDR__ control the Drapes position |
-| LLR1.2 | According to the values of __Termistor__ controll speed of fan|       |LLR2.2 | Position of drapes are controlled by SERVO Moto |
+| LLR1.1 | According to the values of __LDR__ and __User Light Intensity__ control the Drapes position|     |LLR2.1 | According to the values of __LDR__ and __User Light Intensity__ control the lights  |
+| LLR1.2 | According to the values of __Termistor__ and __User Temperature__ controll speed of fan|     |LLR2.2 | Position of drapes shall be controlled by Stepper Motor |
 
 
 
 | ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| LLR3.1 | The __555 Timer__ circuit should send pwm signal to speaker (When enabled, off other tasks)  |  | LLR4.1 | It should ba able display the %of drapes opend according to value of LDR |
-| LLR3.2 | The micro controller should activate buzzer circuit and turn off other systems |  | LLR4.2 |It should be able to convert integer to string for displaying %of drapes |
+| LLR3.1 | The __555 Timer__ circuit shall send pwm signal to speaker  |  | LLR4.1 | It shall be able display the %of drapes opend according to value of LDR |
+| LLR3.2 | The micro controller shall activate buzzer circuit and turn off other systems |  | LLR4.2 |It shall be able to convert integer to string for displaying %of drapes |
 
 ---
 # 3.1 Block Diagram
@@ -93,6 +93,8 @@
 * ### Master Switch
     * This switch controls the Burglar alarm and other automations as unit when this switch is on (we ON it when we want alarm)
 
+* ### Potentiometer (POT)
+    * This is basically used to take user input i.e. Temperature and Light Intensity
 
 ## 3.3 ACTUATORS
 * ### FAN
@@ -140,8 +142,8 @@
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Thermistor | 25  | Fan speed shall change accordingly | Fan speed shall change accordingly  | To be done |
-| 02 | LDR | 10lux | 100% of drapes opened | 100% of drapes opened |  To be done |
+| 01 | Temperature | 25°C(User) 30°C(room/Thermistor)  | Fan speed shall change accordingly | Fan speed shall change accordingly  | To be done |
+| 02 | Light Intensity | 10lux | 100% of drapes opened | 100% of drapes opened |  To be done |
 | 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) |To be done |
 | 04 | Master Switch | off(0) | Shall disable Alarm(0) and on Automation(1) | Shall disable Alarm(0) and on Automation(1) | To be done |
 | 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound | To be done |
