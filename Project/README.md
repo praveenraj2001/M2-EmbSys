@@ -132,7 +132,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Thermistor | 25  | Fan speed shall change accordingly | Fan speed shall change accordingly  | To be done |
 | 02 | LDR | 10lux | 100% of drapes opened | 100% of drapes opened |  To be done |
-| 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) | Shall disable all automation(0) |To be done |
+| 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) |To be done |
 | 04 | Master Switch | off(0) | Shall disable Alarm(0) and on Automation(1) | Shall disable Alarm(0) and on Automation(1) | To be done |
 | 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound | To be done |
 
@@ -141,7 +141,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 01 | Door Open/Close sensor | 5v 0r 0v  | Send 1 to Buzzer circuit | Send 1 to Buzzer circuit | To be done |
 | 02 | LCD display | %(50) of drapes opened and %(50) of lights intensity | "%(50) of drapes opened and %(50) of lights intensity" on screen | "%(50) of drapes opened and %(50) of lights intensity" on screen | To be done |
-| 03 | Motor Control For Stepper (MCFS) | Data from Micro controller(sends values from PORTD to Motor driver) |Data from Micro controller(sends values from PORTD to Motor driver) |  | To be done |
+| 03 | Motor Control For Stepper (MCFS) | Data from Micro controller(sends values from PORTD to Motor driver) |Data from Micro controller(sends values from PORTD to Motor driver) | Data from Micro controller(sends values from PORTD to Motor driver) | To be done |
 | 04 | Motor Control For Fan (MCFF) | Data from Micro controller(PWM from Controller to Motor Driver) | Change speed of fan (PWM) | Change speed of fan (PWM) | To be done |
 | 05 | Stepper motor | Data from MCFS To Stepper | Should change position of Stepper Motor | Should change position of Stepper Motor | To be done |
 
