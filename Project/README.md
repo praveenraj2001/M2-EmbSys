@@ -23,7 +23,7 @@
 
 ## 1.2 Identifying features
  * It should show how much %of drapes should be opened according to room light intensity
- * It should dim light intensity according to room light intensity
+ * It should dim/increase light intensity according to room light intensity
  * It should change the speed of fan accordingly to the temperature of the room
  * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
 
@@ -75,56 +75,53 @@
 ---
 ##
 ## SENSORS
-* ### Temperature Sensor (Thermistor)
+* #### Temperature Sensor (Thermistor)
     * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller
 
-* ### Light Intensity Sensor (LDR)
+* #### Light Intensity Sensor (LDR)
     * This LDR(Light Dependent Resistor) is a resistor whose resistance is dependent on intensity of light here this change in resistence produces change in voltage, this voltage is taken as input to micro controller
 
 
-* ### Door Open/Closed Sensor
+* #### Door Open/Closed Sensor
     * This is actually a micro switch in real world which will send data to micro controller about the door (opened/closed) in our simulation we just used a normal switch
 
-* ## Master Switch
+* #### Master Switch
     * This switch controls the Burglar alarm and other automations as unit when this switch is on (we ON it when we want alarm)
 
 
 ## ACTUATORS
-* ### FAN
+* #### FAN
     * This is a fan which control the cooling of room by increasing/decreasing it's speed
 
-* ### Actuator for drapes(Stepper motor)
+* #### Actuator for drapes(Stepper motor)
     * This is a motor who's direction and angle can be controlled which will inturn controls the DRAPES
 
-* ### Relay
+* #### Relay
     * Here we have used Relay to switch on and off the Burglar alarm system
 
-* ### Light 
+* #### Light 
     * The lighting inside the room is controlled by  this lights
 
-* ### Display 
-    * Here we have used (Hd44780-26) LCD display for displaying how much %of drapes are opened and how much %of lights are dim
+* #### Display 
+    * Here we have used (Hd44780-26) LCD display for displaying how much %of drapes are opened and how much %of lights are on
 
-
-## Motor Driver Unit
-* This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293183)
-
-## SUBSYSTEM
-
-* ### Burglar alarm
-    * This system consists of __555 Timer__, some capacitors, resistors and a speaker connected in a specific way to make a buzzing sound
 
 ## Micro Controller
-* ### EEPROM
+* #### EEPROM
     * Here this is actually inside the microcontroller
 
-* ### Clock
+* #### Clock
     * Here we are using internal clock of our micro controller
 
-* ### Micro Controller 
+* #### Micro Controller 
     * This is the brain of the system here we use Atmega328 every computation is done inside this controller it converts analog to digital and maps certain values, it controls LCD display, it sends PWM signals to Fan and Stepper motor
 
+## SUBSYSTEM & OTHERS
 
+* #### Burglar alarm
+    * This system consists of __555 Timer__, some capacitors, resistors and a speaker connected in a specific way to make a buzzing sound
+* #### Motor Driver Unit
+    * This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293183)
 
 ---
 
