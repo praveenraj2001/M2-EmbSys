@@ -158,9 +158,9 @@
 
 | Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Check for LCD_Char() | N  | N |  N | ✓(manual) |
-| 02 | Check for LCD_String() | automation | automation |  automation | ✓(manual) |
-| 03 | Check for LCD_String() | Home | Home | Home | ✓(manual) |
+| 01 | Check for LCD_Char() | N  | N |  N | To be done |
+| 02 | Check for LCD_String() | automation | automation |  automation | To be done |
+| 03 | Check for LCD_String() | Home | Home | Home | To be done |
 
 
 | Test ID (for ADC)| Description | Input | Expected output | Actual Output | passed/not |
