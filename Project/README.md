@@ -6,10 +6,10 @@
     1. Identifying features
     1. State of art
     1. 5W's & 1H and S.W.O.T analysis
-1. Block Diagram and Blocks explination
 1. Requirements
     1. High level requirements
     1. Low level requirements
+1. Block Diagram and Blocks explination
 1. Test plan
     1. High level test plan
     1. Low level test plan
