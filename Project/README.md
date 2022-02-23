@@ -52,18 +52,18 @@
 
 | ID | High Level Requirements |
 | -------- | -------------- |
-| H1 | It should controll Lights, Fan Automatically |
-| H2 | It should controll Drapes Automatically |
-| H3 | It should Sound buzzer when door is open and people are not at home |
-| H4 | It should display How much %of drapes are opend |
+| HLR1 | It should controll Lights, Fan Automatically |
+| HLR2 | It should controll Drapes Automatically |
+| HLR3 | It should Sound buzzer when door is open and people are not at home |
+| HLR4 | It should display How much %of drapes are opend |
 
 
 ### Low Level Requirements
 
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | ----- | ----- | ---- |----- | ----- |
-| H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
-| H1L2 | According to the values of __Termistor__ controll speed of fan|       |H2L2 | Position of drapes are controlled by SERVO Moto |
+| LLR1.1 | According to the values of __LDR__ control the lights|       |LLR2.1 |  According to the values of __LDR__ control the Drapes position |
+| LLR1.2 | According to the values of __Termistor__ controll speed of fan|       |LLR2.2 | Position of drapes are controlled by SERVO Moto |
 
 
 
@@ -168,6 +168,7 @@
 
 
 ------
+<!-- 
 # Current Progress
 ![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)
-Done with Buzzer and screen and adc conversion
+Done with Buzzer and screen and adc conversion -->
