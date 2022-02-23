@@ -15,7 +15,7 @@
     1. Actuators
     1. Micro controller and memory
     1. Sub-system and others
-1. Test plan
+1. Test plan and Output
     1. High level test plan
     1. Low level test plan
 1. Application
@@ -48,7 +48,7 @@
 
 ---
 
-## Requirements
+## 2 Requirements
 
 <!-- Tables -->
 ### 2.1 High Level Requirements
@@ -76,7 +76,9 @@
 | LLR3.2 | The micro controller shall activate buzzer circuit and turn off other systems |  | LLR4.2 |It shall be able to convert integer to string for displaying %of drapes |
 
 ---
-# 3.1 Block Diagram
+# 3 Block Diagram and Blocks explination 
+
+## 3.1 BLOCK DIAGRAM
 
 ![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
 
@@ -135,11 +137,11 @@
 
 
 
-# Test plan and output
+# 4 Test plan and output
 
 ### Test plan is created and verified on both manual and automated manner
 
-## HIGH LEVEL TEST PLAN / Integrated test plan
+## 4.1 HIGH LEVEL TEST PLAN / Integrated test plan
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
@@ -162,7 +164,7 @@
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here
 
-## LOW LEVEL TEST PLAN / Unit test plan
+## 4.2 LOW LEVEL TEST PLAN / Unit test plan
 
 | Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
@@ -177,7 +179,7 @@
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
 
-# Applications
+# 5 Applications
 * The scope of this project is vast in the area of home automation and Home security and when people want automatic home lighting and cooling system along with  Intruder alart
 
 
