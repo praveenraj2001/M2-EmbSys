@@ -21,20 +21,20 @@
 
 ---
 
-## Identifying features
+## 1.2 Identifying features
  * It should show how much %of drapes should be opened according to room light intensity
  * It should dim light intensity according to room light intensity
  * It should change the speed of fan accordingly to the temperature of the room
  * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
 
-## State of art
+## 1.3 State of art
  * The main focus point here is the controlling the Home without even touching a single button
  * And also securing our home with a reliable __Burglar system__
  * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
 ---
-## 5W's & 1H and S.W.O.T analysis is in the below table 
+## 1.4 5W's & 1H and S.W.O.T analysis is in the below table 
 
 | 5W's & 1H | S.W.O.T analysis  |
 | -------- | -------------- |
@@ -73,7 +73,7 @@
 | LLR3.2 | The micro controller should activate buzzer circuit and turn off other systems |  | LLR4.2 |It should be able to convert integer to string for displaying %of drapes |
 
 ---
-
+##
 ## Temperature Sensor (Thermistor)
 * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller
 
@@ -128,22 +128,23 @@
 
 ## HIGH LEVEL TEST PLAN / Integrated test plan
 
-| Test ID | Description | Input | Expected output | Actual Output |
-| --- | --- | --- | --- | --- |
-| 01 | Thermistor | Room Temperature  | Temperature(to volts) |  ✓ |
-| 02 | LDR | Room light intensity | Intensity(to volts) |  To be done |
-| 03 | Master Switch | on(Alarm) | Should disable all automation | To be done |
-| 04 | Master Switch | off(Automation) | Should disable Alarm | To be done |
-| 05 | 555 Timer and buzzer | Data from Micro controller | Buzzing Sound | ✓ |
+| Test ID | Description | Input | Expected output | Actual Output | Passed or not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Thermistor | 25  | Fan speed should change accordingly | Fan speed should change accordingly  | To be done |
+| 02 | LDR | 10lux | 100% of drapes opened | 100% of drapes opened |  To be done |
+| 03 | Master Switch | on(Alarm) | Shall disable all automation | Shall disable all automation |To be done |
+| 04 | Master Switch | off(Automation) | Shall disable Alarm and on Automation | Shall disable Alarm and on Automation | To be done |
+| 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound | To be done |
 
 
-| Test ID | Description | Input | Expected output | Actual Output |
+| Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- |
-| 01 | Door Open/Close sensor | 5v 0r 0v  | 5v or 0v |  To be done |
-| 02 | LCD display | Data from MCFS | Display %of drapes open and %of intensity of light |  ✓ |
-| 03 | Servo motor | Data from MCFF | Should change position of drapes | To be done |
-| 04 | Motor Control For Servo (MCFS) | Data from Micro controller | Send data to Servo | To be done |
-| 05 | Motor Control For Fan (MCFF) | Data from Micro controller | Send data to MCFF | To be done |
+| 01 | Door Open/Close sensor | 5v 0r 0v  | Send 1 to Buzzer circuit | Send 1 to Buzzer circuit | To be done |
+| 02 | LCD display | %(50) of drapes opened and %(50) of lights intensity | "%(50) of drapes opened and %(50) of lights intensity" on screen | "%(50) of drapes opened and %(50) of lights intensity" on screen | To be done |
+| 03 | Motor Control For Stepper (MCFS) | Data from Micro controller(sends values from PORTD to Motor driver) |Data from Micro controller(sends values from PORTD to Motor driver) |  | To be done |
+| 04 | Motor Control For Fan (MCFF) | Data from Micro controller(PWM from Controller to Motor Driver) | Change speed of fan (PWM) | Change speed of fan (PWM) | To be done |
+| 05 | Stepper motor | Data from MCFS To Stepper | Should change position of Stepper Motor | Should change position of Stepper Motor | To be done |
+
 
 
 #### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here
