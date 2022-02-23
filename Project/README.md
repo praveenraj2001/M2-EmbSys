@@ -50,10 +50,6 @@
 * This is the brain of the system here we use Atmega328 every computation is done inside this controller it converts analog to digital and maps certain values, it controls LCD display, it sends PWM signals to Fan and Stepper motor
 
 
-------
-# Current Progress
-![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)
-Done with Buzzer and screen and adc conversion
 
 ---
 
@@ -149,3 +145,9 @@ Done with Buzzer and screen and adc conversion
 
 # Applications
 * The scope of this project is vast in the area of home automation and Home security and when people want automatic home lighting and cooling system along with  Intruder alart
+
+
+------
+# Current Progress
+![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)
+Done with Buzzer and screen and adc conversion
