@@ -33,15 +33,11 @@
  * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
-## 5W's & 1H
-![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png)
-
-## S.W.O.T analysis 
-### This below images represents the S.W.O.T analysis that I've done
-![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)
 
 ---
-
+| 5W's & 1H | S.W.O.T analysis  |
+| -------- | -------------- |
+| ![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png) | ![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)|
 # Block Diagram
 
 ![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
