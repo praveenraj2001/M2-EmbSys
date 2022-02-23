@@ -16,7 +16,7 @@
 1. Application
 1. Current Progress
 ---
-# Description
+## 1.1 Description
  * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic lighting and cooling control system in home and when we are not in home we can activate Buglar alarm which will give a buzz noise alerting people around the home by buzzing noise when someone breaks the Door
 
 ---
@@ -33,14 +33,45 @@
  * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
  * As the world PACE-FORWARD our technology needs to catch up to the world  
 
-
 ---
+## 5W's & 1H and S.W.O.T analysis is in the below table 
+
 | 5W's & 1H | S.W.O.T analysis  |
 | -------- | -------------- |
 | ![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png) | ![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)|
 # Block Diagram
 
 ![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
+
+--
+
+## Requirements
+
+<!-- Tables -->
+### High Level Requirements
+
+| ID | High Level Requirements |
+| -------- | -------------- |
+| H1 | It should controll Lights, Fan Automatically |
+| H2 | It should controll Drapes Automatically |
+| H3 | It should Sound buzzer when door is open and people are not at home |
+| H4 | It should display How much %of drapes are opend |
+
+### Low Level Requirements
+
+| ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
+| ----- | ----- | ---- |----- | ----- |
+| H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
+| H1L2 | According to the values of __Termistor__ controll speed of fan|       |H2L2 | Position of drapes are controlled by SERVO Moto |
+
+
+
+| ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
+| -------- | -------------- | ---- | -------- | -------------- |
+| H3L1 | The __555 Timer__ circuit should send pwm signal to speaker (When enabled, off other tasks)  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
+| H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
+
+---
 
 ## Temperature Sensor (Thermistor)
 * This Thermistor is a resistor whose resistance is dependent on temperature here this change in resistence produces change in voltage, this voltage is taken as input to micro controller
@@ -87,33 +118,7 @@
 
 
 ---
-## Requirements
 
-<!-- Tables -->
-### High Level Requirements
-
-| ID | High Level Requirements |
-| -------- | -------------- |
-| H1 | It should controll Lights, Fan Automatically |
-| H2 | It should controll Drapes Automatically |
-| H3 | It should Sound buzzer when door is open and people are not at home |
-| H4 | It should display How much %of drapes are opend |
-
-### Low Level Requirements
-
-| ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
-| -------- | -------------- | ---- |-------- | -------------- |
-| H1L1 | According to the values of __LDR__ control the lights|       |H2L1 |  According to the values of __LDR__ control the Drapes position |
-| H1L2 | According to the values of __Termistor__ controll speed of fan|       |H2L2 | Position of drapes are controlled by SERVO Moto |
-
-
-
-| ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
-| -------- | -------------- | ---- | -------- | -------------- |
-| H3L1 | The __555 Timer__ circuit should send pwm signal to speaker (When enabled, off other tasks)  |  | H4L1 | It should ba able display the %of drapes opend according to value of LDR |
-| H3L2 | The micro controller should activate buzzer circuit and turn off other systems |  | H4L2 |It should be able to convert integer to string for displaying %of drapes |
-
----
 
 
 # Test plan and output
