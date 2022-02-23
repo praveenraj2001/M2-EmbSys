@@ -3,6 +3,29 @@
 # Description
  * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic lighting and cooling control system in home and when we are not in home we can activate Buglar alarm which will give a buzz noise alerting people around the home by buzzing noise when someone breaks the Door
 
+---
+
+## Identifying features
+ * It should show how much %of drapes should be opened according to room light intensity
+ * It should dim light intensity according to room light intensity
+ * It should change the speed of fan accordingly to the temperature of the room
+ * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
+
+## State of art
+ * The main focus point here is the controlling the Home without even touching a single button
+ * And also securing our home with a reliable __Burglar system__
+ * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
+ * As the world PACE-FORWARD our technology needs to catch up to the world  
+
+## 5W's & 1H
+![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png)
+
+## S.W.O.T analysis 
+### This below images represents the S.W.O.T analysis that I've done
+![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)
+
+---
+
 # Block Diagram
 
 ![A.B.C.L.A.D.S](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/BlockDiagram.png)
@@ -50,27 +73,6 @@
 * This is the brain of the system here we use Atmega328 every computation is done inside this controller it converts analog to digital and maps certain values, it controls LCD display, it sends PWM signals to Fan and Stepper motor
 
 
-
----
-
-## Identifying features
- * It should show how much %of drapes should be opened according to room light intensity
- * It should dim light intensity according to room light intensity
- * It should change the speed of fan accordingly to the temperature of the room
- * When we are not at home it should be able to sense if door is closed or broken and should turn on a buzzer
-
-## State of art
- * The main focus point here is the controlling the Home without even touching a single button
- * And also securing our home with a reliable __Burglar system__
- * Now this two features are combined and made into one product i.e. __A.B.C.L.A.D.S__
- * As the world PACE-FORWARD our technology needs to catch up to the world  
-
-## 5W's & 1H
-![5W1H](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/5W1H.png)
-
-## S.W.O.T analysis 
-### This below images represents the S.W.O.T analysis that I've done
-![SWOT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/SWOT.png)
 
 ---
 ## Requirements
