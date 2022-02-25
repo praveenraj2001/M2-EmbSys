@@ -140,6 +140,7 @@
 * ### Motor Driver Unit
     * This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293183)
 
+
 ---
 # 4 Architecture
 * ## 4.1 Behavioural Diagram
