@@ -19,7 +19,6 @@
     1. High level test plan
     1. Low level test plan
 1. Application
-1. Current Progress
 ---
 # 1. About the A.B.C.L.A.D.S
 ## 1.1 Description
