@@ -72,8 +72,8 @@
 
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | ----- | ----- | ---- |----- | ----- |
-| LLR1.1 | According to the values of __LDR__ and __User Light Intensity__ control the Drapes position|     |LLR2.1 | According to the values of __LDR__ and __User Light Intensity__ control the lights  |
-| LLR1.2 | According to the values of __Termistor__ and __User Temperature__ controll speed of fan|     |LLR2.2 | Position of drapes shall be controlled by Stepper Motor |
+| LLR1.1 | According to the values of __LDR__ and __User Light Intensity__ shall control the Drapes position|     |LLR2.1 | According to the values of __LDR__ and __User Light Intensity__ shall control the lights  |
+| LLR1.2 | According to the values of __Termistor__ and __User Temperature__ shall controll speed of fan|     |LLR2.2 | Position of drapes shall be controlled by Stepper Motor |
 
 
 
@@ -170,11 +170,11 @@
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Door Open/Close sensor | 5v 0r 0v  | Send 1 to Buzzer circuit | Send 1 to Buzzer circuit | To be done |
+| 01 | Door Open/Close sensor | 5v 0r 0v  | shall Send 1 to Buzzer circuit | shall Send 1 to Buzzer circuit | To be done |
 | 02 | LCD display | %(50) of drapes opened and %(50) of lights intensity | "%(50) of drapes opened and %(50) of lights intensity" on screen | "%(50) of drapes opened and %(50) of lights intensity" on screen | To be done |
-| 03 | Motor Control For Stepper (MCFS) | Data from Micro controller(sends values from PORTD to Motor driver) |Data from Micro controller(sends values from PORTD to Motor driver) | Data from Micro controller(sends values from PORTD to Motor driver) | To be done |
-| 04 | Motor Control For Fan (MCFF) | Data from Micro controller(PWM from Controller to Motor Driver) | Change speed of fan (PWM) | Change speed of fan (PWM) | To be done |
-| 05 | Stepper motor | Data from MCFS To Stepper | Should change position of Stepper Motor | Should change position of Stepper Motor | To be done |
+| 03 | Motor Control For Stepper (MCFS) | Data from Micro controller( shall sends values from PORTD to Motor driver) |Data from Micro controller(shall sends values from PORTD to Motor driver) | Data from Micro controller(shall sends values from PORTD to Motor driver) | To be done |
+| 04 | Motor Control For Fan (MCFF) | Data from Micro controller(PWM from Controller to Motor Driver) | shall Change speed of fan (PWM) |shall Change speed of fan (PWM) | To be done |
+| 05 | Stepper motor | Data from MCFS To Stepper | shall change position of Stepper Motor | shall change position of Stepper Motor | To be done |
 
 
 
