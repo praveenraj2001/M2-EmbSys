@@ -10,7 +10,7 @@
 1. Requirements
     1. High level requirements
     1. Low level requirements
-1. Block Diagram and Blocks explination
+1. Block Diagram and Blocks explanation
     1. Block Diagram
     1. Sensors
     1. Actuators
