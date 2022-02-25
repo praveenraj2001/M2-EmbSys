@@ -138,7 +138,7 @@
 * ### Burglar alarm
     * This system consists of __555 Timer__, some capacitors, resistors and a speaker connected in a specific way to make a buzzing sound
 * ### Motor Driver Unit
-    * This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293183)
+    * This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293)
 
 
 ---
