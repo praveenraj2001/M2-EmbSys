@@ -1,6 +1,6 @@
 # __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_
 ---
-## Check Report.doc file for the same
+## Check Report.pdf file for the same
 # Table of content
 1. About the A.B.C.L.A.D.S
     1. Description
