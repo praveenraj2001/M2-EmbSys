@@ -1,4 +1,7 @@
 # __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_
+## Check Report.pdf file or Report.docx for the _REPORT_
+
+<!-- # __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_
 ---
 ## Check Report.pdf file for the same
 # Table of content
@@ -57,7 +60,7 @@
 
 ## 2 Requirements
 
-<!-- Tables -->
+
 ### 2.1 High Level Requirements
 
 | ID | High Level Requirements |
@@ -210,7 +213,7 @@
 
 
 ------
-<!-- 
+
 # Current Progress
 ![CKT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/Current_progress.png)
 Done with Buzzer and screen and adc conversion -->
