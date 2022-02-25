@@ -17,9 +17,9 @@
     1. Micro controller and memory
     1. Sub-system and others
 1. Architecture
-    1. Behavioural Diagram
-        1. High Level Flow chart Behavioural Diagram
-        1. Low Level Flow chart Behavioural Diagram
+    1. Behavioral Diagram
+        1. High Level Flow chart Behavioral Diagram
+        1. Low Level Flow chart Behavioral Diagram
     1. Structural Diagram
         1. High Level UML Use Case Structural Diagram
         1. Low Level UML Use Case Structural Diagram
@@ -143,10 +143,10 @@
 
 ---
 # 4 Architecture
-* ## 4.1 Behavioural Diagram
-    * ### 4.1.1 High Level Flow chart Behavioural Diagram
+* ## 4.1 Behavioral Diagram
+    * ### 4.1.1 High Level Flow chart Behavioral Diagram
     ![HLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/HLFBD_without_BG.png)
-    * ### 4.1.2 Low Level Flow chart Behavioural Diagram
+    * ### 4.1.2 Low Level Flow chart Behavioral Diagram
     ![LLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/LLFBD_without_BG.png)
 * ## 4.2 Structural Diagram
     * ### 4.2.1 High Level UML Use Case Structural Diagram
