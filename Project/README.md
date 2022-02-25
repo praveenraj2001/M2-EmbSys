@@ -194,6 +194,12 @@
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
 
+| Test ID (for mapping, map)| Description | Input | Expected output | Actual Output | passed/not |
+| --- | --- | --- | --- | --- | --- |
+| 01 | Check for map() | To be done | To be done |  To be done | To be done |
+| 02 | Check for map() | To be done | To be done |  To be done | To be done |
+| 03 | Check for map() | To be done | To be done |  To be done | To be done |
+
 # 6 Applications
 * The scope of this project is vast in the area of home automation
 * Home security and when people want automatic home lighting and cooling system along with Intruder alart
