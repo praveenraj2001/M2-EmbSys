@@ -62,8 +62,8 @@
 
 | ID | High Level Requirements |
 | -------- | -------------- |
-| HLR1 | It shall controll Lights, Fan Automatically when user selects desired light intensity and Temperature |
-| HLR2 | It shall controll Drapes Automatically user selects desired light intensity |
+| HLR1 | It shall control Lights, Fan Automatically when user selects desired light intensity and Temperature |
+| HLR2 | It shall control Drapes Automatically user selects desired light intensity |
 | HLR3 | It shall Sound buzzer when door is open and people are not at home |
 | HLR4 | It shall display How much %of drapes are opend |
 
@@ -73,7 +73,7 @@
 | ID | Low Level Requirements for H1|       |ID | Low Level Requirements for H2|
 | ----- | ----- | ---- |----- | ----- |
 | LLR1.1 | According to the values of __LDR__ and __User Light Intensity__ shall control the Drapes position|     |LLR2.1 | According to the values of __LDR__ and __User Light Intensity__ shall control the lights  |
-| LLR1.2 | According to the values of __Termistor__ and __User Temperature__ shall controll speed of fan|     |LLR2.2 | Position of drapes shall be controlled by Stepper Motor |
+| LLR1.2 | According to the values of __Termistor__ and __User Temperature__ shall control speed of fan|     |LLR2.2 | Position of drapes shall be controlled by Stepper Motor |
 
 
 
