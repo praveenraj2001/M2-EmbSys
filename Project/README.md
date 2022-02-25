@@ -15,6 +15,13 @@
     1. Actuators
     1. Micro controller and memory
     1. Sub-system and others
+1. Architecture
+    1. Behavioural Diagram
+        1. High Level Flow chart Behavioural Diagram
+        1. Low Level Flow chart Behavioural Diagram
+    1. Structural Diagram
+        1. High Level UML Use Case Structural Diagram
+        1. Low Level UML Use Case Structural Diagram
 1. Test plan and Output
     1. High level test plan
     1. Low level test plan
