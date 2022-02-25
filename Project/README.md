@@ -140,14 +140,23 @@
     * This unit is different for both Drapes(we use Stepper motor driver i.e. ULN2804) and fan (we use motor driver L293183)
 
 ---
-
-
-
-# 4 Test plan and output
+# 4 Architecture
+* ## 4.1 Behavioural Diagram
+    * ### 4.1.1 High Level Flow chart Behavioural Diagram
+    ![HLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/HLFBD_without_BG.png)
+    * ### 4.1.2 Low Level Flow chart Behavioural Diagram
+    ![LLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/LLFBD_without_BG.png)
+* ## 4.2 Structural Diagram
+    * ### 4.2.1 High Level UML Use Case Structural Diagram
+    ![HL_UML](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/HL_UML_withour_BG.png)
+    * ### 4.2.2 Low Level UML Use Case Structural Diagram
+    ![LL_UML](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/LL_UML_without_BG.png)
+---
+# 5 Test plan and output
 
 ### Test plan is created and verified on both manual and automated manner
 
-## 4.1 HIGH LEVEL TEST PLAN / Integrated test plan
+## 5.1 HIGH LEVEL TEST PLAN / Integrated test plan
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
@@ -170,7 +179,7 @@
 
 ### Here below are the some of the *unity test/ unity framework* test plans there are so many but I have only mentiones some of the test cases here
 
-## 4.2 LOW LEVEL TEST PLAN / Unit test plan
+## 5.2 LOW LEVEL TEST PLAN / Unit test plan
 
 | Test ID (for LCD)| Description | Input | Expected output | Actual Output | passed/not |
 | --- | --- | --- | --- | --- | --- |
@@ -185,8 +194,11 @@
 | 02 | Check for ADC_Read() | To be done | To be done |  To be done | To be done |
 
 
-# 5 Applications
-* The scope of this project is vast in the area of home automation and Home security and when people want automatic home lighting and cooling system along with  Intruder alart
+# 6 Applications
+* The scope of this project is vast in the area of home automation
+* Home security and when people want automatic home lighting and cooling system along with Intruder alart
+* In factories and function halls
+* In Schools and Collages to save energy
 
 
 ------
