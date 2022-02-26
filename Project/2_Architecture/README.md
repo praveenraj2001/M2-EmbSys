@@ -1,23 +1,16 @@
-# Design
- ## Behavioural Diagram
- * High Level Flow chart Behavioural Diagram:
- 
- ![High_level_flowchart](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/6_ImagesAndVideos/struct_HL.png)
- 
- * Low Level Flow chart Behavioural Diagram:
 
- ![Low_level_flowchart](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/6_ImagesAndVideos/struct_LL.png)
- 
-
- ## Structural Diagram
- 
- * High Level UML Use Case Structural Diagram:
- 
-  ![High_level_UML Usecase](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/6_ImagesAndVideos/hl_uml.png)
-  
- * Low Level UML Use Case Structural Diagram:
-    
-  ![Low_level_UML Usecase](https://github.com/praveenraj2001/M1_ProjectGoal_Util/blob/main/6_ImagesAndVideos/ll_uml.png)
+#  Architecture
+* ##  Behavioral Diagram
+    * ###  High Level Flow chart Behavioral Diagram
+    ![HLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/HLFBD_without_BG.png)
+    * ### Low Level Flow chart Behavioral Diagram
+    ![LLFBD](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/LLFBD_without_BG.png)
+* ## Structural Diagram
+    * ### High Level UML Use Case Structural Diagram
+    ![HL_UML](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/HL_UML_withour_BG.png)
+    * ### Low Level UML Use Case Structural Diagram
+    ![LL_UML](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/LL_UML_without_BG.png)
+---
 
   ## Best method followed
    * The best of the best Diagrams are considered
