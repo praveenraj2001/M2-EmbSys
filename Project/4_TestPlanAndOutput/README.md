@@ -8,7 +8,7 @@
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Temperature | 25°C(User) 30°C(room/Thermistor)  | Fan speed shall change accordingly | Fan speed shall change accordingly  |  ✅ |
-| 02 | Light Intensity | 200Lux(User) 10Lux(LDR) | 100% of drapes opened | 100% of drapes opened |   ✅ |
+| 02 | Light Intensity | 200Lux(User) 0Lux(LDR) |  100% LED |  100% LED |   ✅ |
 | 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) | ✅ |
 | 04 | Master Switch | off(0) | Shall disable Alarm(0) and on Automation(1) | Shall disable Alarm(0) and on Automation(1) |  ✅ |
 | 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound |  ✅ |
@@ -17,7 +17,7 @@
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Door Open/Close sensor | 5v 0r 0v  | shall Send 1 to Buzzer circuit | shall Send 1 to Buzzer circuit |  ✅ |
-| 02 | LCD display | %(50) of drapes opened and %(50) of lights intensity | "%(50) of drapes opened and %(50) of lights intensity" on screen | "%(50) of drapes opened and %(50) of lights intensity" on screen |  ✅ |
+| 02 | LCD display | % of lights intensity | " % of lights intensity" on screen | " % of lights intensity" on screen |  ✅ |
 | 03 | Motor Control For Stepper (MCFS) | Data from Micro controller( shall sends values from PORTD to Motor driver) |Data from Micro controller(shall sends values from PORTD to Motor driver) | Data from Micro controller(shall sends values from PORTD to Motor driver) |  ✅ |
 | 04 | Motor Control For Fan (MCFF) | Data from Micro controller(PWM from Controller to Motor Driver) | shall Change speed of fan (PWM) |shall Change speed of fan (PWM) |  ✅ |
 | 05 | Stepper motor | Data from MCFS To Stepper | shall change position of Stepper Motor | shall change position of Stepper Motor |  ✅ |
