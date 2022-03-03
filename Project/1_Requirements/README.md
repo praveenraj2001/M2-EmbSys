@@ -36,7 +36,7 @@
 | HLR1 | It shall control Lights, Fan Automatically when user selects desired light intensity and Temperature |
 | HLR2 | It shall control Drapes Automatically user selects desired light intensity |
 | HLR3 | It shall Sound buzzer when door is open and people are not at home |
-| HLR4 | It shall display How much %of drapes are opend |
+| HLR4 | It shall display How much %of Lights |
 
 
 ### Low Level Requirements
@@ -50,5 +50,5 @@
 
 | ID | Low Level Requirements for H3|  |ID | Low Level Requirements for H4|
 | -------- | -------------- | ---- | -------- | -------------- |
-| LLR3.1 | The __555 Timer__ circuit shall send pwm signal to speaker  |  | LLR4.1 | It shall be able display the %of drapes opend according to value of LDR |
-| LLR3.2 | The micro controller shall activate buzzer circuit and turn off other systems |  | LLR4.2 |It shall be able to convert integer to string for displaying %of drapes |
+| LLR3.1 | The __555 Timer__ circuit shall send pwm signal to speaker  |  | LLR4.1 | It shall be able display the %of LED according to value of LDR |
+| LLR3.2 | The micro controller shall activate buzzer circuit and turn off other systems |  | LLR4.2 |It shall be able to convert integer to % for displaying %of LED |

@@ -7,7 +7,7 @@
 
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
-| 01 | Temperature | 25°C(User) 30°C(room/Thermistor)  | Fan speed shall change accordingly | Fan speed shall change accordingly  |  ✅ |
+| 01 | Temperature | 25°C(User)  | Fan speed shall change accordingly | Fan speed shall change accordingly  |  ✅ |
 | 02 | Light Intensity | 200Lux(User) 0Lux(LDR) |  100% LED |  100% LED |   ✅ |
 | 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) | ✅ |
 | 04 | Master Switch | off(0) | Shall disable Alarm(0) and on Automation(1) | Shall disable Alarm(0) and on Automation(1) |  ✅ |
