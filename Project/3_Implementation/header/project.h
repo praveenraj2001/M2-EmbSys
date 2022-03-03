@@ -32,11 +32,46 @@
 #define RS PB0				/* Define Register Select pin */
 #define EN PB1 				/* Define Enable signal pin */
 
+/**
+ * @brief Gives Unsigned char commands to the LCD
+ * 
+ * @param cmnd 
+ */
 void LCD_Command( unsigned char cmnd );
+
+/**
+ * @brief Prints Character on the display
+ * 
+ * @param data 
+ */
 void LCD_Char( unsigned char data );
+
+/**
+ * @brief Initilizes the LCD
+ * 
+ */
 void LCD_Init (void);
+
+/**
+ * @brief Prints String on the LCD
+ * 
+ * @param str 
+ */
 void LCD_String (char *str);
+
+/**
+ * @brief Prints String at certain position on LCD
+ * 
+ * @param row 
+ * @param pos 
+ * @param str 
+ */
 void LCD_String_xy (char row, char pos, char *str);
+
+/**
+ * @brief Clears the LCD display
+ * 
+ */
 void LCD_Clear();
 void LCD_pos(char row, char pos);
 
