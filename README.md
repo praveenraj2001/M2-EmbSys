@@ -5,3 +5,5 @@
 ## Check inside Project forlder for report
 
 [![Cppcheck](https://github.com/praveenraj2001/M2-EmbSys/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/praveenraj2001/M2-EmbSys/actions/workflows/c-cpp.yml)
+
+[![Cppcheck](https://github.com/praveenraj2001/M2-EmbSys/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/praveenraj2001/M2-EmbSys/actions/workflows/c-cpp.yml)

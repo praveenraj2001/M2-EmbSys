@@ -4,7 +4,7 @@ MAIN_APP = main
 ## For testing
 TEST_MAIN = maintest
 
-TEST_SRC = src/onlytesting.c\
+TEST_SRC = onlytesting/onlytesting.c\
 src/test_project.c\
 unity/unity.c
 
