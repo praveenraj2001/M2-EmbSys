@@ -168,7 +168,7 @@
 | Test ID | Description | Input | Expected output | Actual Output | Passed or not |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Temperature | 25°C(User) 30°C(room/Thermistor)  | Fan speed shall change accordingly | Fan speed shall change accordingly  |  ✅ |
-| 02 | Light Intensity | 200Lux(User) 10Lux(LDR) | 100% of drapes opened | 100% of drapes opened |   ✅ |
+| 02 | Light Intensity | 200Lux(User) 0Lux(LDR) | 100% of drapes opened | 100% of drapes opened |   ✅ |
 | 03 | Master Switch | on(1) | Shall disable all automation(0) | Shall disable all automation(0) | ✅ |
 | 04 | Master Switch | off(0) | Shall disable Alarm(0) and on Automation(1) | Shall disable Alarm(0) and on Automation(1) |  ✅ |
 | 05 | 555 Timer and buzzer | Data from Micro controller(1) | Buzzing Sound | Buzzing Sound |  ✅ |
