@@ -20,11 +20,11 @@
 #endif
 
 #define F_CPU 8000000UL			/* Define CPU Frequency e.g. here 8MHz */
-#include <avr/io.h>			/* Include AVR std. library file */
-#include<math.h>
+#include <avr/io.h>			    /* Include AVR std. library file */
+#include<math.h>                /* Include math header file */
 #include <util/delay.h>			/* Include Delay header file */
-#include <stdlib.h>
-#include <string.h>
+#include <stdlib.h>             /* Include stdlib header file */
+#include <string.h>             /* Include string header file */
 
 
 #define LCD_Dir  DDRB			/* Define LCD data port direction */
