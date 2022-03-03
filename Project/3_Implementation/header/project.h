@@ -19,6 +19,7 @@
     #define __AVR_ATmega328__
 #endif
 
+
 #define F_CPU 8000000UL			/* Define CPU Frequency e.g. here 8MHz */
 #include <avr/io.h>			    /* Include AVR std. library file */
 #include<math.h>                /* Include math header file */
@@ -27,9 +28,27 @@
 #include <string.h>             /* Include string header file */
 
 
+/**
+ * @brief Define LCD data port direction for DDRB
+ */
 #define LCD_Dir  DDRB			/* Define LCD data port direction */
+
+/** 
+ * @brief Define LCD data port to PORTB
+ * 
+ */
 #define LCD_Port PORTB			/* Define LCD data port */
+
+/**
+ * @brief Define Register Select pin to PB0
+ * 
+ */
 #define RS PB0				/* Define Register Select pin */
+
+/**
+ * @brief Define Enable signal pin to PB1
+ * 
+ */
 #define EN PB1 				/* Define Enable signal pin */
 
 /**
