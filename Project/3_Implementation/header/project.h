@@ -73,19 +73,81 @@ void LCD_String_xy (char row, char pos, char *str);
  * 
  */
 void LCD_Clear();
+
+/**
+ * @brief Sets Display Cursor to row,pos
+ * 
+ * @param row 
+ * @param pos 
+ */
 void LCD_pos(char row, char pos);
 
-
+/**
+ * @brief Initilize the ADC (Analog to Digital Converter)
+ * 
+ */
 void ADC_Init();
-int ADC_Read(char channel);
-float fan_percent_map(float percent);
 
+/**
+ * @brief Read the ADC Value from port c channel (0-6)
+ * 
+ * @param channel 
+ * @return int 
+ */
+int ADC_Read(char channel);
+
+/**
+ * @brief Converts the value we have to Percentage
+ * 
+ * @param percent 
+ * @return float 
+ */
+float fan_led_percent_map(float percent);
+
+/**
+ * @brief Rotates Clock Wise / Anti-Clock Wise the Stepper Motor (value = 12) for Full Rotation
+ * 
+ * @param prev_val 
+ * @param value 
+ * @param fwd 
+ * @param rev 
+ */
 void stepper_rotate(int **prev_val,int **value,int **fwd, int **rev);
 
+/**
+ * @brief Generates PWM for LED
+ * 
+ * @param pwm 
+ */
 void timer_led(int pwm);
+
+/**
+ * @brief Generates PWM for FAN
+ * 
+ * @param pwm 
+ */
 void timer_fan(int pwm);
+
+/**
+ * @brief Controls and prints the cooling (FAN)
+ * 
+ * @param temp 
+ * @param String 
+ */
 void temp_fan(int **temp , char String[]);
 
+/**
+ * @brief Controls and prints the stepper motor and Cooling (FAN)
+ * 
+ * @param prev_val 
+ * @param value 
+ * @param fwd 
+ * @param rev 
+ * @param String 
+ * @param room_int 
+ * @param user_int 
+ * @param temp 
+ */
 void stepper_and_temp(int *prev_val,int *value,int *fwd, int *rev, char String[], int *room_int, int *user_int, int *temp);
 
 
