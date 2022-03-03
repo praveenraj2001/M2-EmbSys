@@ -2,9 +2,9 @@
 MAIN_APP = main
 
 ## For testing
-TEST_MAIN = maintest 
+TEST_MAIN = maintest
 
-TEST_SRC = src/project_testable.c\
+TEST_SRC = src/onlytesting.c\
 src/test_project.c\
 unity/unity.c
 
@@ -66,6 +66,9 @@ build_test :
 
 run_test : build_test
 	./$(call FixPath,$(TEST_MAIN).$(EXEC))
+	
+static_analysis:
+	cppcheck --enable=all $(SRC)
 
 clear :
 	rm -r *.o *.elf *.hex *.out

@@ -111,22 +111,6 @@ int ADC_Read(char channel)
 	return(Ain);			/* Return digital value*/
 }
 
-int map(int x, int in_min_range, int in_max_range, int out_min_range, int out_max_range){ 
-	float scale,A,B,C,D,offset,p,q,div; int ans;
-	p = x;
-	A = in_min_range;
-	B = in_max_range;
-	C = out_min_range;
-	D = out_max_range;
-	scale = B-A ;
-	offset = D-A;
-	div = scale/offset;
-	div = floor(div);
-	q = floor(p/div);
-ans = q;
-return ans;
-
-}
 void stepper_rotate(int **prev_val,int **value,int **fwd, int **rev){ // This Function rotates Stepper motor 
 	
 		if((**prev_val-**value)<0){**fwd=**prev_val;
@@ -193,6 +177,10 @@ void timer_fan(int pwm){ // PWM for fan
     OCR2A = pwm; 
 }
 
+float fan_led_percent_map(float percent){
+	return (percent/252)*100; 
+}
+
 void temp_fan(int **temp , char String[]){
 	int speed; 
 	speed = 6 - (**temp-8); // Does the mapping
@@ -201,7 +189,7 @@ void temp_fan(int **temp , char String[]){
 	int pwm_val=0;
 		pwm_val = speed;
 	float percent = pwm_val;
-		percent = (percent/252)*100; // for displaying
+		percent = fan_led_percent_map(percent);// for displaying
 		pwm_val = percent;
 		LCD_Command(0xd0);
 				LCD_String_xy(1,0,"FAN is at ");
@@ -242,7 +230,7 @@ void stepper_and_temp(int *prev_val,int *value,int *fwd, int *rev, char String[]
 				int pwm_val=0;
 				pwm_val = 21*(*value);
 				float percent = pwm_val;
-				 percent = (percent/252)*100; // for displaying
+				percent = fan_led_percent_map(percent);; // for displaying
 				pwm_val = percent;
 				timer_led(pwm_val);
 

@@ -10,8 +10,8 @@ void tearDown()
 } 
 
 void test_map(void) 
-{ int val = map(20, 492, 478, 20, 35);
-  TEST_ASSERT_EQUAL_INT(20,val);
+{ 
+  TEST_ASSERT_EQUAL_FLOAT(100,fan_led_percent_map(252));
 }
 
 

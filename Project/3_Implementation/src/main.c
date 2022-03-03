@@ -11,12 +11,7 @@
 int main()
 {
 
-    char String[5];
-	int value=0;
-	int fwd=0;
-	int prev_val;
-	int rev=0;
-	int temp;
+    
 	
 	DDRD |= 0b00001111;  /*insted of "DDRD |= 0x0f;" */
 	DDRC |= 0b1000000;
@@ -44,6 +39,13 @@ int main()
 	}
 
 	else{
+		char String[5];
+		
+		int value=0;
+		int fwd=0;
+		int prev_val;
+		int rev=0;
+		int temp;
 		ADC_Init(); 
 		LCD_Init();			/* Initialization of LCD */
 		LCD_Clear(); /* Clear the Display */

@@ -43,7 +43,7 @@ void LCD_pos(char row, char pos);
 
 void ADC_Init();
 int ADC_Read(char channel);
-int map(int x, int in_min_range, int in_max_range, int out_min_range, int out_max_range);
+float fan_percent_map(float percent);
 
 void stepper_rotate(int **prev_val,int **value,int **fwd, int **rev);
 
