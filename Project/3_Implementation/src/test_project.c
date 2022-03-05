@@ -1,5 +1,5 @@
 #include "../unity/unity.h"
-#include "../header/onlytesting.h"
+#include "../onlytesting/onlytesting.h"
 
 void setUp()
 {
