@@ -10,4 +10,9 @@
 
 | Folder Name | Contents |
 |---|---|
-| --> | --> |
+| CaseStudy | 3 Case studies README.md |
+| Project | Report1.1.pdf, Report1.2.pdf |
+| Project ⇨ 1_Requirements | README.md (Description,5W's & 1H, S.W.O.T,Requirements)  |
+| Project ⇨ 2_Architecture | README.md (Behavioral Diagrams,Structural UML Diagram) |
+| Project ⇨ 3_Implementation | Documentation(Doxy) , header(project.h), onlytesting(onlytesting.c, onlytesting.h), src(main.c, project.c, test_project.c), Unity, Makefile, README.md |
+|  |  |
