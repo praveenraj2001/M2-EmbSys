@@ -112,52 +112,79 @@ int ADC_Read(char channel)
 
 void stepper_rotate(int **prev_val,int **value,int **fwd, int **rev){ // This Function rotates Stepper motor 
 	
-		if((**prev_val-**value)<0){**fwd=**prev_val;
-		for (**fwd; **fwd < **value; (**fwd)++) //(0-11), 12 for one rotation
-		{  									  //anti clock wise
-			_delay_ms(10);
-			PORTD |= 0X01;    // (0 to 3) D b0001
-			_delay_ms(10);  
-			PORTD |= 0X03;    // (0 to 3) D b0011
-			_delay_ms(10);
-			PORTD |= 0X07;    // (0 to 3) D b0111
-			_delay_ms(10);
-			PORTD |= 0X0F;    // (0 to 3) D b1111
-			_delay_ms(10);  
+		if((**prev_val-**value)<0)
+			{**fwd=**prev_val;
+			for (**fwd; **fwd < **value; (**fwd)++) //(0-11), 12 for one rotation
+					{  									  //anti clock wise
+						_delay_ms(10);
+						PORTD |= 0X01;    // (0 to 3) D b0001
+						_delay_ms(10);  
+						PORTD |= 0X03;    // (0 to 3) D b0011
+						_delay_ms(10);
+						PORTD |= 0X07;    // (0 to 3) D b0111
+						_delay_ms(10);
+						PORTD |= 0X0F;    // (0 to 3) D b1111
+						_delay_ms(10);  
 
-			PORTD &= ~(1<<0); // (0 to 4) D b1110
-			_delay_ms(10);
-			PORTD &= ~(1<<1); // (0 to 4) D b1100
-			_delay_ms(10);
-			PORTD &= ~(1<<2); // (0 to 4) D b1000
-			_delay_ms(10);
-			PORTD &= ~(1<<3); // (0 to 4) D b0000
-			_delay_ms(10);
-		}}
+						PORTD &= ~(1<<0); // (0 to 4) D b1110
+						_delay_ms(10);
+						PORTD &= ~(1<<1); // (0 to 4) D b1100
+						_delay_ms(10);
+						PORTD &= ~(1<<2); // (0 to 4) D b1000
+						_delay_ms(10);
+						PORTD &= ~(1<<3); // (0 to 4) D b0000
+						_delay_ms(10);
+					}
+			}
+		else if((abs(**prev_val-**value))>=24) //special case if room intensity is 200 lux and user intensity is 10 lux at Start (Start of run)
+			{
+				for (**rev; **rev < abs(**prev_val-**value)/2; (**rev)++) //(0-11) 12 for one rotation
+					{   												 //clock wise
+						_delay_ms(10);
+						PORTD |= 0X08; 	  // (0 to 4) D b1000
+						_delay_ms(10);
+						PORTD |= 0X0C; 	  // (0 to 4) D b1100
+						_delay_ms(10);
+						PORTD |= 0X0E; 	  // (0 to 4) D b1110
+						_delay_ms(10);
+						PORTD |= 0X0F; 	  // (0 to 4) D b1111
+						_delay_ms(10);
 
-		else{ **rev = 0;
-		for (**rev; **rev < abs(**prev_val-**value); (**rev)++) //(0-11) 12 for one rotation
-		{   												 //clock wise
-			_delay_ms(10);
-			PORTD |= 0X08; 	  // (0 to 4) D b1000
-			_delay_ms(10);
-			PORTD |= 0X0C; 	  // (0 to 4) D b1100
-			_delay_ms(10);
-			PORTD |= 0X0E; 	  // (0 to 4) D b1110
-			_delay_ms(10);
-			PORTD |= 0X0F; 	  // (0 to 4) D b1111
-			_delay_ms(10);
+						PORTD &= ~(1<<3); // (0 to 4) D b0111
+						_delay_ms(10);
+						PORTD &= ~(1<<2); // (0 to 4) D b0011
+						_delay_ms(10);
+						PORTD &= ~(1<<1); // (0 to 4) D b0001
+						_delay_ms(10);
+						PORTD &= ~(1<<0);  // (0 to 4) D b0000
+						_delay_ms(10);
+					}
+			}
 
-			PORTD &= ~(1<<3); // (0 to 4) D b0111
-			_delay_ms(10);
-			PORTD &= ~(1<<2); // (0 to 4) D b0011
-			_delay_ms(10);
-			PORTD &= ~(1<<1); // (0 to 4) D b0001
-			_delay_ms(10);
-			PORTD &= ~(1<<0);  // (0 to 4) D b0000
-			_delay_ms(10);
-		}
-		}
+		else
+			{ **rev = 0;
+				for (**rev; **rev < abs(**prev_val-**value); (**rev)++) //(0-11) 12 for one rotation
+					{   												 //clock wise
+						_delay_ms(10);
+						PORTD |= 0X08; 	  // (0 to 4) D b1000
+						_delay_ms(10);
+						PORTD |= 0X0C; 	  // (0 to 4) D b1100
+						_delay_ms(10);
+						PORTD |= 0X0E; 	  // (0 to 4) D b1110
+						_delay_ms(10);
+						PORTD |= 0X0F; 	  // (0 to 4) D b1111
+						_delay_ms(10);
+
+						PORTD &= ~(1<<3); // (0 to 4) D b0111
+						_delay_ms(10);
+						PORTD &= ~(1<<2); // (0 to 4) D b0011
+						_delay_ms(10);
+						PORTD &= ~(1<<1); // (0 to 4) D b0001
+						_delay_ms(10);
+						PORTD &= ~(1<<0);  // (0 to 4) D b0000
+						_delay_ms(10);
+					}
+			}
 }
 
 
@@ -170,7 +197,7 @@ void timer_led(int pwm){     // PWM for led
 
 
 void timer_fan(int pwm){     // PWM for fan
-	DDRB |=0b00001000;      // output port D6
+	DDRB |=0b00001000;      // output port B3
 	TCCR2A |= 0b10100011;  // PWM not inverted on OC2A and OC2B pins
 	TCCR2B |= 0b00000011; 
     OCR2A = pwm; 
@@ -211,8 +238,8 @@ void temp_fan(int **temp , char String[]){
 			if(strlen(String)==3){
 					LCD_String(String);
 					LCD_pos(1,13);      	// sets cursor position to 1,13
-					LCD_String("%");
-					} 
+					
+					} LCD_String("%");
 		
 }
 
@@ -227,7 +254,8 @@ void stepper_and_temp(int *prev_val,int *value,int *fwd, int *rev, char String[]
 		ADC_Init();
 		*temp=ADC_Read(2); // for temperature
 		temp_fan(&temp,String);
-		*value = *value - *room_int; 
+		*value = *value - *room_int;
+		// if(*value>12) *value = 12; 
 		
 			
 			if(*value>=0){ 									// for LED PWM when room intensity is 0 Lux
@@ -259,8 +287,8 @@ void stepper_and_temp(int *prev_val,int *value,int *fwd, int *rev, char String[]
 				if(strlen(String)==3){
 					LCD_String(String);
 					LCD_pos(0,13);				  // sets cursor position to 0,13
-					LCD_String("%");
-					}
+					
+					}LCD_String("%");
 				}
 			else{
 				stepper_rotate(&prev_val, &value, &fwd, &rev);

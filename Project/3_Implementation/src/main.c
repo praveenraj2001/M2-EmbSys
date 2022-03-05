@@ -38,7 +38,7 @@ int main()
 		int fwd=0;
 		int prev_val;
 		int rev=0;
-		int temp;
+		int temp=0;
 		ADC_Init();					// Initilize ADC
 		LCD_Init();			 	   // Initialization of LCD  
 		LCD_Clear();			  // Clear the Display  
