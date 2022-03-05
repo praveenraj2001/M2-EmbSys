@@ -20,3 +20,7 @@
 | Project ⇨ 6_ImagesAndVideos | All images used in repo |
 | Project ⇨ 7_Applications | Applications |
 | Project ⇨ 8_Output | __Output Images and Videos__ |
+
+![Output](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/8_Output/AutomationMode.png)
+
+![Output Video link](https://youtu.be/e94q0TFYNEs)
