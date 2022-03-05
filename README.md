@@ -19,7 +19,7 @@
 | Project ⇨ 5_Report | Report1.1.pdf(Old), Report1.2.pdf (Updated) |
 | Project ⇨ 6_ImagesAndVideos | All images used in repo |
 | Project ⇨ 7_Applications | Applications |
-| Project ⇨ 8_Output | __Output Images and Videos__ |
+| Project ⇨ 8_Output | __Output Images and Videos and Simulide File__ |
 
 Simulation Video link ↓
 
