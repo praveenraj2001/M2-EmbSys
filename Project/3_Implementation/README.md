@@ -5,8 +5,6 @@
     * Type ***make run_test*** in terminal
  * For static analysis
     * Type ***make static_analysis*** in terminal
- * For code coverage
-    * Type ***make coverage*** in terminal
  * For cleaning
     * Type  ***make clean*** in terminal
   
