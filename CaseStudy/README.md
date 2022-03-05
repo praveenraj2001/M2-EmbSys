@@ -1,5 +1,5 @@
 
-#  About the A.B.C.L.A.D.S
+#  Automatic Burglar alert, Cooling, Lighting and Drapes Control system A.B.C.L.A.D.S
 ## Description
  * This Project is an __Automatic Burglar alert, Cooling, Lighting and Drapes Control system__, _(A.B.C.L.A.D.S)_ which will be usefull for automatic lighting and cooling control system in home and when we are not in home we can activate Buglar alarm which will give a buzz noise alerting people around the home by buzzing noise when someone breaks the Door, When the user sets a required temperature and light intensity this system will automatically controls the Room temperature and Light intensity.
 
