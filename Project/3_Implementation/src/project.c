@@ -98,8 +98,7 @@ int ADC_Read(char channel)
 	ADMUX = ADMUX | (channel & 0x0f); // Set input channel to read
 
 	ADCSRA |= (1 << ADSC); // Start conversion
-	while ((ADCSRA & (1 << ADIF)) == 0)
-		; // Monitor end of conversion interrupt
+	while ((ADCSRA & (1 << ADIF)) == 0); // Monitor end of conversion interrupt
 
 	_delay_us(10);
 	AinLow = (int)ADCL;	   // Read lower byte

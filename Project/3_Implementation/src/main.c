@@ -4,16 +4,16 @@
 int main()
 {
 
-	DDRD |= 0b00001111; // insted of "DDRD |= 0x0f;"
-	DDRC |= 0b1000000;	// set b6 as output port
-	LCD_Init();			// initilize led
+	DDRD |= 0b00001111; 								// insted of "DDRD |= 0x0f;"
+	DDRC |= 0b1000000;									// set b6 as output port
+	LCD_Init();											// initilize led
 
 	if (PIND & (1 << 4))
-	{ // moniter bit 4 of portd for buzzer
+	{ 													// moniter bit 4 of portd for buzzer (Polling)
 
 		while (1)
-		{ // moniter bit 5 of portc for Door sensor
-			if (PINC & (1 << 5))
+		{ 												// moniter bit 5 of portc for Door sensor 
+			if (PINC & (1 << 5)) 						// (Polling)
 			{
 				PORTC |= (1 << PIN6);
 				LCD_String_xy(0, 0, " Burglar Alarm "); // Displays string at 0,0 on LCD
