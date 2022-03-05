@@ -24,6 +24,6 @@
 
 ![Output Video link]()
 
-[![IMAGE ALT TEXT](https://www.flaticon.com/free-icon/youtube_124015?k=1646482347756)](https://youtu.be/e94q0TFYNEs "Video Title")
+[![IMAGE ALT TEXT](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/6_ImagesAndVideos/youtube.png)](https://youtu.be/e94q0TFYNEs "Video Title")
 
 ![Output](https://github.com/praveenraj2001/M2-EmbSys/blob/main/Project/8_Output/AutomationMode.png)
