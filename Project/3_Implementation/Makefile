@@ -27,7 +27,7 @@ else
 endif
 
 # Compiler and other Section
-CC = avr-gcc
+CC = avr-gcc -std=c99
 OBJCOPY = avr-objcopy.exe
 # AVRDUDE := avrdude
 
