@@ -6,32 +6,28 @@ int main()
 
 	DDRD |= 0b00001111;									// insted of "DDRD |= 0x0f;"
 	DDRC |= 0b1000000;									// set b6 as output port
-<<<<<<< HEAD
 	LCD_Init();// initilize led
-=======
-	LCD_Init();										// initilize led
->>>>>>> 4ba3c1c8f083fc4d73d6659f903d19c2fc1861e1
 
 	if (PIND & (1 << 4))
-	{ 											// moniter bit 4 of portd for buzzer (Polling)
+	{ 													// moniter bit 4 of portd for buzzer (Polling)
 
 		while (1)
-		{ 										// moniter bit 5 of portc for Door sensor 
-			if (PINC & (1 << 5)) 							// (Polling)
+		{ 												// moniter bit 5 of portc for Door sensor 
+			if (PINC & (1 << 5)) 						// (Polling)
 			{
 				PORTC |= (1 << PIN6);
-				LCD_String_xy(0, 0, " Burglar Alarm "); 			// Displays string at 0,0 on LCD
-				LCD_String_xy(1, 0, " S.O.S    ");				// Displays string at 1,0 on LCD
+				LCD_String_xy(0, 0, " Burglar Alarm "); // Displays string at 0,0 on LCD
+				LCD_String_xy(1, 0, " S.O.S    ");		// Displays string at 1,0 on LCD
 				LCD_Command(0xd4);						// Cursor position to 4,0 on LCD
-				LCD_String(" A.B.C.L.A.D.S");					// Displays string on LCD
+				LCD_String(" A.B.C.L.A.D.S");			// Displays string on LCD
 			}
 			else
 			{
 				PORTC &= ~(1 << PIN6);
-				LCD_String_xy(0, 0, " Burglar Alarm "); 			// Displays string at 0,0 on LCD
-				LCD_String_xy(1, 0, " Secured ");				// Displays string at 1,0 on LCD
+				LCD_String_xy(0, 0, " Burglar Alarm "); // Displays string at 0,0 on LCD
+				LCD_String_xy(1, 0, " Secured ");		// Displays string at 1,0 on LCD
 				LCD_Command(0xd4);						// Cursor position to 4,0 on LCD
-				LCD_String(" A.B.C.L.A.D.S");					// Displays string on LCD
+				LCD_String(" A.B.C.L.A.D.S");			// Displays string on LCD
 			}
 		}
 	}
@@ -45,9 +41,9 @@ int main()
 		int prev_val;
 		int rev = 0;
 		int temp = 0;
-		ADC_Init();				 // Initilize ADC
-		LCD_Init();				 // Initialization of LCD
-		LCD_Clear();				 // Clear the Display
+		ADC_Init();	 // Initilize ADC
+		LCD_Init();	 // Initialization of LCD
+		LCD_Clear(); // Clear the Display
 		LCD_Command(0xd4);
 		LCD_String(" A.B.C.L.A.D.S");
 
